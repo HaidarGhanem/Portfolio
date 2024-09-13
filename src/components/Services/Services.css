@@ -1,0 +1,46 @@
+.services__container {
+    margin-top: 140px;
+}
+
+.service__box {
+    margin-top: 80px;
+    gap: 100px;
+}
+
+
+.service__card {
+    width: 270px;
+}
+
+@keyframes blur {
+    0% {
+        border-top: 5px solid var(--Secondary) !important;
+    }
+    25%{
+        border-right: 5px solid var(--Secondary) !important;
+    }
+    75%{
+        border-bottom: 5px solid var(--Secondary) !important;
+    }
+    100%{
+        border-left: 5px solid var(--Secondary) !important;
+    }
+}
+
+.hexagon {
+    font-size: 150px;
+    color: var(--Primary);
+    margin-bottom: -40px;
+}
+
+.hexagon__content {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    top: 30%;
+    left: 27%;
+}
+
+.service__border {
+    border-bottom: 3px solid var(--Primary);
+    width: 100px;
+}

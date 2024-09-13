@@ -1,0 +1,43 @@
+.graphic__container {
+    margin-top: 120px;
+}
+
+.slider__container {
+    overflow: hidden;
+}
+
+.img__sizing {
+    width: 650px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 24px;
+    box-shadow: 1px 1px 10px 2px #00000067;
+}
+
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%); 
+    }
+}
+
+.slider__item {
+    animation: slide 10s linear infinite; 
+}
+
+@media screen and (max-width: 992px) {
+    .slider__container {
+        display: flex;
+        justify-content: center;
+        gap: 500px;
+    }
+
+    .img__sizing {
+        width: 300px; 
+        height: 250px; 
+        object-fit: cover;
+    }
+}

@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+:root {
+    --Primary : #fea352;
+    --Secondary : #232325;
+}
+
+* {
+    font-family: "SUSE", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scrollbar-width: thin; 
+    scrollbar-color: var(--Primary) rgb(228, 228, 228);
+    scroll-behavior: smooth;
+
+}
+
+.navbar-toggler {
+    color: white !important;
+    background-color: white;
+    border: none;
+}
+
+.btn , .btn_lg{
+    background-color: var(--Primary) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 18px;
+    transition: 0.5s all;
+}
+
+.btn_lg {
+    height: 50px;
+    width: 250px;
+    font-size: larger;
+}
+
+.btn_lg:hover,
+.btn:hover {
+    background-color: rgb(88, 88, 88) !important;
+}
+
+.btn_2 {
+    background-color: var(--Secondary) !important;
+    color: white!important;
+    border-radius: 18px;
+    transition: 0.5s all;
+}
+
+.btn_2:hover {
+    background-color: #474747 !important;
+    color: white !important;
+}
+
+.o-text {
+    color: var(--Primary) !important;
+}
+
+.n-text {
+    color: var(--Secondary) !important;
+}
+
+.w-text {
+    color: rgb(255, 255, 255) !important;
+}
+
+.b-primary {
+    background-color: var(--Primary);
+}
+
+.b-secondary {
+    background-color: var(--Secondary);
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        scale: 0.5;
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+@keyframes right-anime {
+    from {
+        transform: translateX(500px);
+        opacity: 0;
+        scale: 0.5;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+@keyframes left-anime {
+    from {
+        transform: translateX(-500px);
+        opacity: 0;
+        scale: 0.5;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+@keyframes top-anime {
+    from {
+        transform: translateY(500px);
+        opacity: 0;
+        scale: 0.5;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+        scale: 1;
+    }
+}

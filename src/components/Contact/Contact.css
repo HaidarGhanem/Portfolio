@@ -1,0 +1,29 @@
+.contact__container {
+    margin-top: 120px;
+}
+
+.contact__box {
+    margin: 0 auto;
+    background-color: var(--Primary);
+    border-radius: 30px;
+    gap: 50px;
+}
+
+.contact__form {
+    width: 60%;
+}
+
+.contact__btn {
+    height: 35px;
+    width: 100%;
+}
+
+.message__field {
+    height: 100px;
+}
+
+@media screen and ( max-width : 992px) {
+    .contact__form {
+        width: 100%;
+    }
+}

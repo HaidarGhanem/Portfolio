@@ -1,0 +1,20 @@
+.uiux__container {
+    margin-top: 120px;
+}
+
+.ui__sizing {
+    height: 500px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: none;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .ui__sizing {
+        height: 250px;
+        object-fit: cover;
+    }
+}

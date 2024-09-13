@@ -1,0 +1,22 @@
+.skills__container {
+    margin-top: 120px;
+}
+
+.skills__content {
+    background-color: var(--Secondary);
+    column-gap: 200px;
+}
+
+.skill__card {
+    height: 100px;
+}
+
+.progress {
+    width: 400px;
+    height: 8px !important;
+}
+
+.progress-bar {
+    background-color: var(--Primary) !important;
+}
+

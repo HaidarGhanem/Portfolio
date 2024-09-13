@@ -1,0 +1,20 @@
+.title__container {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    transition: 0.7s all !important;
+}
+
+.title__border {
+    width: 200px;
+    border-bottom: 3px solid var(--Primary);
+}
+
+@media screen and (max-width : 992px) {
+    .title__container p { 
+        font-size: 14px
+    }
+}

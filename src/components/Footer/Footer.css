@@ -1,0 +1,5 @@
+.footer__container{
+    margin-top: 50px;
+    background-color: var(--Secondary);
+    height: 100px;
+}
